@@ -48,7 +48,13 @@ If you have any questions or feedback, please contact [Your Name] at [youremail@
 
 ## Screenshots
 
-[Insert screenshots of your app here]
+<div>
+    <img src="assets/main_page.png">
+    <img src="./assets/login_page.png">
+    <img src="assets/profile_page.png">
+    <img src="assets/chat_room_page.png">
+    <img src="assets/chat_room_page_2.png">
+</div>
 
 ## Contributing
 
