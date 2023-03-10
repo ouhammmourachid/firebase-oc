@@ -1,0 +1,86 @@
+plugins {
+    id 'com.android.application'
+    // Add the Google services Gradle plugin
+    id 'com.google.gms.google-services'
+    // add firebase crashlytics plugins.
+    id 'com.google.firebase.crashlytics'
+
+}
+
+
+android {
+    namespace 'com.example.firebaseoc'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.example.firebaseoc"
+        minSdk 29
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    viewBinding{
+        enabled true
+    }
+}
+
+dependencies {
+    // android default dependencies.
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.8.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+
+    // Import the Firebase BoM
+    implementation platform ( 'com.google.firebase:firebase-bom:31.2.2' )
+
+    // FirebaseUI Storage
+    implementation 'com.firebaseui:firebase-ui-storage:7.1.1'
+
+    // Firebase Messaging.
+    implementation 'com.google.firebase:firebase-messaging'
+
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-firestore'
+
+    // Firebase UI
+    implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
+    implementation 'com.firebaseui:firebase-ui-firestore:7.2.0'
+
+    // Import ButterKnife library
+    implementation 'com.jakewharton:butterknife:10.2.3'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'
+
+    // Import the Glide libraries respond of charging the images from the web using url
+    implementation 'com.github.bumptech.glide:glide:4.15.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.15.0'
+
+    // Importing Easy Permissions:
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+    // Importing crashlytics
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+
+    // Import lombok annotation for getters and setters .
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    // Import libraries for testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}
