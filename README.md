@@ -49,11 +49,11 @@ If you have any questions or feedback, please contact [Your Name] at [youremail@
 ## Screenshots
 
 <div>
-    <img src="assets/main_page.png">
-    <img src="./assets/login_page.png">
-    <img src="assets/profile_page.png">
-    <img src="assets/chat_room_page.png">
-    <img src="assets/chat_room_page_2.png">
+    <img src="assets/main_page.png" width="250" height="auto">
+    <img src="./assets/login_page.png" width="250" height="auto">
+    <img src="assets/profile_page.png" width="250" height="auto">
+    <img src="assets/chat_room_page.png" width="250" height="auto">
+    <img src="assets/chat_room_page_2.png" width="250" height="auto">
 </div>
 
 ## Contributing
