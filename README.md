@@ -68,7 +68,7 @@ If you'd like to contribute to FirebaseOC, please follow these steps:
 
 ## Issues
 
-If you find any issues with FirebaseOC, please report them on the [Github Issues page](https://github.com/yourusername/FirebaseOC/issues).
+If you find any issues with FirebaseOC, please report them on the [Github Issues page](https://github.com/ouhammmourachid/firebase-oc/issues).
 
 ## Acknowledgments
 
