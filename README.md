@@ -3,7 +3,7 @@
 FirebaseOC is a mini-app that demonstrates how to integrate Firebase into an Android app. With FirebaseOC, you'll learn how to create a backend for your Android app that supports authentication, real-time data storage, file sharing, and notifications.
 
 ## Features
-[![CI](https://github.com/ouhammmourachid/firebase-oc/actions/workflows/android.yml/badge.svg)]
+![CI](https://github.com/ouhammmourachid/firebase-oc/actions/workflows/android.yml/badge.svg)
 (https://github.com/ouhammmourachid/firebase-oc/actions/workflows/android.yml)
 
 
