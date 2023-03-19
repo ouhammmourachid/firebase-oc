@@ -4,6 +4,7 @@ FirebaseOC is a mini-app that demonstrates how to integrate Firebase into an And
 
 ## Features
 ![CI](https://github.com/ouhammmourachid/firebase-oc/actions/workflows/android.yml/badge.svg)
+[![Java](https://img.shields.io/badge/Java-11-blue.svg)]()
 
 - Firebase Authentication: Users can sign in using their email, Facebook, or Google credentials.
 - Firebase Firestore: Real-time database for storing and retrieving data remotely.
