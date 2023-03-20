@@ -46,7 +46,7 @@ FirebaseOC is licensed under the [MIT License](https://opensource.org/licenses/M
 
 ## Contact
 
-If you have any questions or feedback, please contact [Your Name] at [youremail@email.com].
+If you have any questions or feedback, please contact me at [rachidouhammou21@gmail.com].
 
 ## Screenshots
 
